@@ -18,9 +18,16 @@ defmodule OpenGraph.Parser do
 
   defp _parse_opengraph_data(html_body) do
     meta_tags = [
+      "site_name",
+      "type",
       "title",
       "description",
       "image",
+      "image:width",
+      "image:height",
+      "video",
+      "video:width",
+      "video:height",
       "url",
     ]
 
