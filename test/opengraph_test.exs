@@ -10,7 +10,14 @@ defmodule TestOpenGraphParse do
       title: "Elixir",
       url: "http://elixir-lang.org/elixir",
       image: "http://elixir-lang.org/images/logo/logo.png",
-      description: "Elixir lang. Main page."
+      description: "Elixir lang. Main page.",
+      "image:height": "",
+      "image:width": "",
+      site_name: "",
+      type: "text/html",
+      video: "",
+      "video:height": "",
+      "video:width": ""
     }
 
     # should parse opengraph data

@@ -2,8 +2,27 @@ defmodule OpenGraphData do
   defstruct title: "",
             description: "",
             image: "",
-            url: ""
-  @type t :: %OpenGraphData{title: string, description: string, image: string, url: string}
+            url: "",
+            "image:height": "",
+            "image:width": "",
+            site_name: "",
+            type: "",
+            video: "",
+            "video:height": "",
+            "video:width": ""
+  @type t :: %OpenGraphData{
+    title: binary,
+    description: binary,
+    image: binary,
+    url: binary,
+    "image:height": binary,
+    "image:width": binary,
+    site_name: binary,
+    type: binary,
+    video: binary,
+    "video:height": binary,
+    "video:width": binary
+  }
 end
 
 defmodule OpenGraph.Parser do
